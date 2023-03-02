@@ -1,0 +1,13 @@
+
+.container{
+    display: flex;
+}
+
+.receitas{
+    padding: 20px;
+    margin: 20px;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
