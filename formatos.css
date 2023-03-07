@@ -16,7 +16,7 @@ body {
 
 
 header nav {
-  height: 60px;
+  height: 60px
 }
 .bg-dark {
   background-color: #0f0c29 !important;
@@ -28,7 +28,7 @@ header nav {
 }
 
 main {
-  padding: 4rem 0 0 0;
+  padding: 1rem 0 0 0;
   display: flex;
   align-items: center;
   flex-direction: column;
