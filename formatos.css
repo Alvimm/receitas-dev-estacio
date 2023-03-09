@@ -73,3 +73,21 @@ footer p {
 label {
   font-size: 1.5rem;
 }
+
+@media (max-width: 992px){
+  .collapse:not(.show) {
+    display: flex;
+    
+  }
+  .navbar-nav {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+}
