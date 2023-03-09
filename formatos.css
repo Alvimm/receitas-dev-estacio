@@ -73,7 +73,6 @@ footer p {
 label {
   font-size: 1.5rem;
 }
-
 @media (max-width: 992px){
   .collapse:not(.show) {
     display: flex;
@@ -91,3 +90,4 @@ label {
 }
 
 }
+
