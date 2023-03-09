@@ -25,6 +25,7 @@ header nav {
 .logo {
   height: 80px;
   width: 80px;
+  margin: 0 2rem 0;
 }
 
 main {
@@ -35,24 +36,26 @@ main {
   height: calc(100vh - 100px);
 }
 
+.container-home{
+  padding: 10rem 0 0 0;
+}
+
 .marca {
   display: flex;
-  align-items: center;
-  gap: 1rem;
 }
 
 .descricao-marca {
-  display: flex;
-  align-items: center;
-  padding: 0 40rem;
+  padding: 40px
 }
 
-h1 {
+.marca h1 {
+  font-size: 4rem;
   font-weight: 700;
   color: #fff;
-  letter-spacing: -0.5px;
+  letter-spacing: 0.5px;
 }
-p {
+.descricao-marca p {
+  font-size: 2rem;
   line-height: 1.6;
 }
 
