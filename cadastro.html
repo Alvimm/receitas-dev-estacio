@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="icon" href="logotipo1.png" />
@@ -19,6 +19,11 @@
     <title>Receitas de DEV</title>
   </head>
   <body>
+    <style>
+      body {
+        background-color: #0f3152;
+      }
+    </style>
     <header>
       <nav
         class="navbar navbar-expand-lg bg-body-tertiary bg-dark"
@@ -43,52 +48,134 @@
         </div>
       </nav>
     </header>
+
     <main>
       <div class="container">
         <form class="container-fluid">
           <h1 class="mb-4">Efetue seu cadastro</h1>
-            <div class="col-8 mb-4">
+
+          <div class="row">
+            <div class="col-md-2 mb-4">
               <label for="nome" class="form-label">Nome</label>
-              <input type="text" class="form-control" id="nome" name="nome" required>
             </div>
-            <div class="col-8 mb-4">
-              <label for="email" class="form-label">E-mail</label>
-              <input type="email" class="form-control" id="email" name="email" required>
+            <div class="col-md-7 mb-4">
+              <input
+                type="text"
+                class="form-control"
+                id="nome"
+                name="nome"
+                required
+              />
+            </div>
           </div>
-            <div class="col-8 mb-4">
+
+          <div class="row">
+            <div class="col-md-2 mb-4">
+              <label for="email" class="form-label">E-mail</label>
+            </div>
+            <div class="col-md-7 mb-4">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-2 mb-4">
               <label for="cep" class="form-label">CEP</label>
-              <input type="text" class="form-control" id="cep" name="cep" required>
             </div>
-            <div class="col-8 mb-4">
+            <div class="col-md-3 mb-4">
+              <input
+                type="number"
+                class="form-control"
+                id="cep"
+                name="cep"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-2 mb-4">
               <label for="rua" class="form-label">Rua</label>
-              <input type="text" class="form-control" id="rua" name="rua" required>
             </div>
-          <div class="row ">
+            <div class="col-md-7 mb-4">
+              <input
+                type="text"
+                class="form-control"
+                id="rua"
+                name="rua"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="row">
             <div class="col-md-2 mb-4">
               <label for="numero" class="form-label">Número</label>
-              <input type="text" class="form-control" id="numero" name="numero" required>
             </div>
-            <div class="col-md-6 mb-4">
+            <div class="col-md-2 mb-4">
+              <input
+                type="number"
+                class="form-control"
+                id="numero"
+                name="numero"
+                required
+              />
+            </div>
+            <div class="col-md-2 mb-4">
               <label for="complemento" class="form-label">Complemento</label>
-              <input type="text" class="form-control" id="complemento" name="complemento" required>
+            </div>
+            <div class="col-md-3 mb-4">
+              <input
+                type="text"
+                class="form-control"
+                id="complemento"
+                name="complemento"
+                required
+              />
             </div>
           </div>
+
           <div class="row">
-            <div class="col-md-6 mb-4">
+            <div class="col-md-2 mb-4">
               <label for="cidade" class="form-label">Cidade</label>
-              <input type="text" class="form-control" id="cidade" name="cidade" required>
             </div>
-            <div class="col-md-2 mb-4">
-              <label for="estado" class="form-label">Estado</label>
-              <input type="text" class="form-control" id="estado" name="estado" required>
+            <div class="col-md-5 mb-4">
+              <input
+                type="text"
+                class="form-control"
+                id="cidade"
+                name="cidade"
+                required
+              />
             </div>
-            <div class="col-md-2 mb-4">
-              <button type="submit" class="btn btn-primary px-5">Cadastrar</button>
+            <div class="col-md-1 mb-4">
+              <label for="estado" class="form-label">UF</label>
+            </div>
+            <div class="col-md-1 mb-4">
+              <input
+                type="text"
+                class="form-control"
+                id="estado"
+                name="estado"
+                required
+              />
+            </div>
+            <div class="col-md-1 mb-4">
+              <button type="submit" class="btn btn-primary px-5">
+                Cadastrar
+              </button>
             </div>
           </div>
-        </form> 
+        </form>
       </div>
     </main>
+
     <footer>
       <p>&copy Filipe Alvim - 2023</p>
     </footer>
