@@ -30,9 +30,6 @@ nav {
 .nav-link:hover{
   color: #D2182F
 }
-.active{
-  /* color: #e5e5e5 !important */
-}
 
 .logo {
   height: 100px; /* Utilizei a altura de 100px pois ficou melhor ao meu ver do que a proposta*/
